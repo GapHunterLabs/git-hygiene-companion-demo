@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 
 public class PaymentProcessor {
 
-    private static final BigDecimal MAX_CHARGE = BigDecimal.valueOf(50_000);
+    private static final BigDecimal MAX_CHARGE = BigDecimal.valueOf(75_000);
 
     public BigDecimal charge(String customerId, BigDecimal amount) {
         validate(amount);
